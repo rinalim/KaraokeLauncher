@@ -5,7 +5,7 @@ sudo apt install openjdk-8-jdk -y
 fixmali
 
 wget http://download1510.mediafire.com/q9nzokcw8trg/g567nzri99pzifu/videoKaraoke-0.1.0-dist.zip
-unzip videoKaraoke-0.1.0-dist.zip -doq /home/pigaming/RetroArena/roms/kodi/videoKaraoke
+unzip -o videoKaraoke-0.1.0-dist.zip -d /home/pigaming/RetroArena/roms/kodi/videoKaraoke
 rm videoKaraoke-0.1.0-dist.zip
 
 cp -r ./patch/kodi /home/pigaming/RetroArena/roms/
