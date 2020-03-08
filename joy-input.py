@@ -58,9 +58,12 @@ def load_button():
 
     global retroarch_key
 
-    f = open(PATH_ROM + "button.cfg", 'r')
-    retroarch_key = ast.literal_eval(f.readline())
-    f.close()
+    if os.path.isfile(PATH_ROM + "button.cfg") == True:
+        f = open(PATH_ROM + "button.cfg", 'r')
+        retroarch_key = ast.literal_eval(f.readline())
+        f.close()
+    else:
+        sys.exit(0)
 
 def is_running(pname):
     ps_grep = run_cmd("ps -ef | grep " + pname + " | grep -v grep")
