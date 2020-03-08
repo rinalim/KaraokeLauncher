@@ -1,7 +1,7 @@
 #-*-coding: utf-8 -*-
 #!/usr/bin/python
 
-import os, sys, struct, time, signal
+import os, sys, struct, time, errno
 from subprocess import *
 import xml.etree.ElementTree as ET
 import ast
