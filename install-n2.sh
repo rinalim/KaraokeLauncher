@@ -18,3 +18,5 @@ sudo chmod 755 ./start-n2.sh
 python ./joy-setup.py
 
 sudo /home/pigaming/mali/install.sh 
+
+sudo reboot
