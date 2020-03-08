@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install ubuntu-mate-desktop -y
-sudo apt install vlc -y
+sudo apt install vlc fcitx-hangul fcitx-config-gtk language-pack-ko -y
 sudo apt install openjdk-8-jdk -y
 fixmali
 
@@ -14,6 +14,7 @@ cp ./patch/intro.mp4 /home/pigaming/RetroArena/roms/kodi/videoKaraoke/res/
 sudo cp ./patch/youtube.luac /usr/lib/aarch64-linux-gnu/vlc/lua/playlist/
 sudo cp ./patch/lightdm.conf /etc/lightdm/
 cp ./patch/start.sh.desktop /home/pigaming/.config/autostart/
+cp ./patch/config /home/pigaming/.config/fcitx/
 
 sudo chmod 755 ./start-n2.sh
 
