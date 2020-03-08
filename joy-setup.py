@@ -47,6 +47,6 @@ def load_retroarch_cfg(dev_name):
 
 print '\n\n'
 use_joy = input('Activate joystick input? (1=Yes, 2=No): ')
-    if use_pause == 1:
-        dev_name = load_es_cfg()
-        load_retroarch_cfg(dev_name)
+if use_pause == 1:
+    dev_name = load_es_cfg()
+    load_retroarch_cfg(dev_name)
