@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<gameList>
+	<game>
+		<path>./karaoke.sh</path>
+		<name>karaoke</name>
+		<playcount>5</playcount>
+		<lastplayed>20200303T161703</lastplayed>
+	</game>
+	<game>
+		<path>./kodi.sh</path>
+		<name>Kodi Media Center</name>
+		<desc>Kodi is a free media player that is designed to look great on your big screen TV but is just as home on a small screen.</desc>
+		<image>./boxart/kodi.png</image>
+		<video>./snap/kodi.mp4</video>
+		<playcount>1</playcount>
+		<lastplayed>20200304T053935</lastplayed>
+	</game>
+	<game>
+		<path>./+Start Karaoke.sh</path>
+		<name>우리집 노래방</name>
+		<video>./snap/karaoke.mp4</video>
+		<playcount>20</playcount>
+		<lastplayed>20200304T084059</lastplayed>
+	</game>
+</gameList>

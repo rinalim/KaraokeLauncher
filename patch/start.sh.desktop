@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Exec=lxterm -fullscreen -e /home/pigaming/KaraokeLauncher/start-n2.sh
+Hidden=false
+X-MATE-Autostart-enabled=true
+Name[en_US]=karaoke
+Name=karaoke
+Comment[en_US]=karaoke
+Comment=karaoke

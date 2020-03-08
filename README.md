@@ -1,2 +1,3 @@
-# KaraokeLauncher
-Launcher for videoKaraoke on SBC
+# KaraokeLaucher
+Launcher for VideoKaraoke
+- https://github.com/jaesung9507/videoKaraoke/
