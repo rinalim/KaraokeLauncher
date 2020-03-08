@@ -16,3 +16,5 @@ sudo cp ./patch/lightdm.conf /etc/lightdm/
 cp ./patch/start.sh.desktop /home/pigaming/.config/autostart/
 
 sudo chmod 755 ./start-n2.sh
+
+python ./joy-setup.py
