@@ -1,10 +1,17 @@
 #-*-coding: utf-8 -*-
 #!/usr/bin/python
 
-import os, sys, struct, time, errno
-from subprocess import *
+import os, sys, struct, time, fcntl, termios, signal
+import curses, errno
 import xml.etree.ElementTree as ET
 import ast
+
+#    struct js_event {
+#        __u32 time;     /* event timestamp in milliseconds */
+#        __s16 value;    /* value */
+#        __u8 type;      /* event type */
+#        __u8 number;    /* axis/button number */
+#    };
 
 reload(sys)
 sys.setdefaultencoding('utf-8')
