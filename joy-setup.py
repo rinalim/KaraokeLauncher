@@ -4,9 +4,14 @@ import os, sys
 from subprocess import *
 import xml.etree.ElementTree as ET
 
-PATH_ROM = '/home/pigaming/RetroArena/roms/kodi/videoKaraoke/'
-ES_INPUT = '/opt/retroarena/configs/all/emulationstation/es_input.cfg'
-RETROARCH_CFG = '/opt/retroarena/configs/all/retroarch-joypads/'
+if os.path.isdir("/home/pigaming/RetroArena") == True :
+    PATH_ROM = '/home/pigaming/RetroArena/roms/kodi/videoKaraoke/'
+    ES_INPUT = '/opt/retroarena/configs/all/emulationstation/es_input.cfg'
+    RETROARCH_CFG = '/opt/retroarena/configs/all/retroarch-joypads/'
+elif os.path.isdir("/home/pi/RetroPie") == True :
+    PATH_ROM = '/home/pi/RetroPie/roms/ports/videoKaraoke/'
+    ES_INPUT = '/opt/retropie/configs/all/emulationstation/es_input.cfg'
+    RETROARCH_CFG = '/opt/retropie/configs/all/retroarch-joypads/'
 
 def load_es_cfg():
     doc = ET.parse(ES_INPUT)

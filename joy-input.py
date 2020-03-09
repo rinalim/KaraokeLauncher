@@ -26,7 +26,10 @@ JS_EVENT_BUTTON = 0x01
 JS_EVENT_AXIS = 0x02
 JS_EVENT_INIT = 0x80
 
-PATH_ROM = '/home/pigaming/RetroArena/roms/kodi/videoKaraoke/'
+if os.path.isdir("/home/pigaming/RetroArena") == True :
+    PATH_ROM = '/home/pigaming/RetroArena/roms/kodi/videoKaraoke/'
+if os.path.isdir("/home/pi/RetroPie") == True :
+    PATH_ROM = '/home/pi/RetroPie/roms/ports/videoKaraoke/'
 
 SELECT_BTN_ON = False
 START_BTN_ON = False

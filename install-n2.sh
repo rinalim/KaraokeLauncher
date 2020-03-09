@@ -11,7 +11,7 @@ unzip -o videoKaraoke-0.1.0-dist.zip -d /home/pigaming/RetroArena/roms/kodi/vide
 
 cp -r ./patch/kodi /home/pigaming/RetroArena/roms/
 cp ./patch/setting.ini /home/pigaming/RetroArena/roms/kodi/videoKaraoke/
-cp ./patch/intro.mp4 /home/pigaming/RetroArena/roms/kodi/videoKaraoke/res/
+cp ./patch/intro.* /home/pigaming/RetroArena/roms/kodi/videoKaraoke/res/
 sudo cp ./patch/youtube.luac /usr/lib/aarch64-linux-gnu/vlc/lua/playlist/
 sudo cp ./patch/lightdm.conf /etc/lightdm/
 
