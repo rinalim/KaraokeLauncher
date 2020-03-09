@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=lxterm -fullscreen -e /home/pi/KaraokeLauncher/start-pi3.sh
+Exec=/home/pi/KaraokeLauncher/start-pi3.sh
 Hidden=false
 X-MATE-Autostart-enabled=true
 Name[en_US]=karaoke
