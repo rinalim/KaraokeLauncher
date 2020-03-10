@@ -1,6 +1,6 @@
 sudo apt update
 sudo apt install ubuntu-mate-desktop -y
-sudo apt install wget vlc fcitx-hangul fcitx-config-gtk language-pack-ko -y
+sudo apt install wget vlc fcitx-hangul fcitx-config-gtk language-pack-ko fonts-unfonts-core -y
 sudo apt install openjdk-8-jdk -y
 
 #if [ ! -f videoKaraoke-0.1.0-dist.zip ]; then
