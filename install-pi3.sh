@@ -11,6 +11,9 @@ sudo apt install openjdk-8-jdk -y
 unzip -o videoKaraoke-0.1.1-dist.zip -d /home/pi/RetroPie/roms/ports/videoKaraoke
 #rm videoKaraoke-0.1.0-dist.zip
 
+tar xzvf urserver-3.6.0.478.tar.gz -C /home/pi/RetroPie/roms/ports
+mv /home/pi/RetroPie/roms/ports/urserver-3.6.0.478 /home/pi/RetroPie/roms/ports/urserver
+
 cp -r ./patch/ports /home/pi/RetroPie/roms/
 cp ./patch/setting.ini /home/pi/RetroPie/roms/ports/videoKaraoke/
 cp ./patch/intro.* /home/pi/RetroPie/roms/ports/videoKaraoke/res/
